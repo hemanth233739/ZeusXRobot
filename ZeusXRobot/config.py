@@ -15,27 +15,27 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1234567  # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1491497760  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "ctzfamily"
-    SUPPORT_CHAT = 'UnitedSupport'  #Your own group for support, do not add the @
-    UPDATES_CHANNEL = 'ZeusUpdates' #Your own channel for Updates of bot, Do not add @
-    JOIN_LOGGER = -1001574034400  #Prints any new group the bot is added to, prints just the name and ID.
-    REM_BG_API_KEY = "http://removebg.com"
+    API_ID = 8577898  # integer value, dont use ""
+    API_HASH = "8663682496c76b1240e4b7e527577dad"
+    TOKEN = "5009926984:AAH6fGW5mTa008lr8aRekqJiuMgrz_0IMjw"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1379645201  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "HEMANTHGAMING1K"
+    SUPPORT_CHAT = 'hgbotsupportgroup'  #Your own group for support, do not add the @
+    UPDATES_CHANNEL = 'hgbotsupdates' #Your own channel for Updates of bot, Do not add @
+    JOIN_LOGGER = -1001721546513  #Prints any new group the bot is added to, prints just the name and ID.
+    REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
     TEMP_DOWNLOAD_DIRECTORY = ""
-    EVENT_LOGS = -1001574034400  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    SQLALCHEMY_DATABASE_URI = '' #do you hub your old heroku app database_URL then put here, most use 25days ago sql
+    EVENT_LOGS = -1001721546513  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    SQLALCHEMY_DATABASE_URI = 'postgres://nnelyxkt:4Qzn7vT8EZogWPGe47c9I7_GHDf4lk-W@castor.db.elephantsql.com/nnelyxkt' #do you hub your old heroku app database_URL then put here, most use 25days ago sql
     LOAD = [] #try to kang this db ur big mothersfuckers i know your noob so only kanging my db
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "BfPIa_u9S0RVHmmaKLJM_JKHNoxoYySPzHSK7YfL9yaba216rkwiAOVC5kcYv1Z1"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_USERNAME = "ZeusXRobot"
-    BOT_ID = "2116046406"
+    BOT_USERNAME = "THETYZONBOT"
+    BOT_ID = "5009926984"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
